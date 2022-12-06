@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>101411963495-eokaq4th3gsneikirln7dl2fc81j6qdi.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.101411963495-eokaq4th3gsneikirln7dl2fc81j6qdi</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBgeZdupO_2bniznkxhkK6X44UjRKdJwzk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>101411963495</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ihebMBARKI.Epark</string>
+	<key>PROJECT_ID</key>
+	<string>epark-4e457</string>
+	<key>STORAGE_BUCKET</key>
+	<string>epark-4e457.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:101411963495:ios:0cb6c67ed07dc351d20ac2</string>
+</dict>
+</plist>

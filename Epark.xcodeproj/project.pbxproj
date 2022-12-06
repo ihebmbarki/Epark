@@ -9,21 +9,58 @@
 /* Begin PBXBuildFile section */
 		04781B742915846D00915658 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04781B732915846D00915658 /* AppDelegate.swift */; };
 		04781B762915846E00915658 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04781B752915846E00915658 /* SceneDelegate.swift */; };
-		04781B782915846E00915658 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04781B772915846E00915658 /* ViewController.swift */; };
 		04781B7B2915846E00915658 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04781B792915846E00915658 /* Main.storyboard */; };
 		04781B7D2915847100915658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04781B7C2915847100915658 /* Assets.xcassets */; };
 		04781B802915847100915658 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04781B7E2915847100915658 /* LaunchScreen.storyboard */; };
+		049627CA293D410C00CE24EB /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049627C9293D410C00CE24EB /* HistoryVC.swift */; };
+		049958882915C21C006216E0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049958872915C21C006216E0 /* GoogleService-Info.plist */; };
+		0499588B2915CB78006216E0 /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0499588A2915CB78006216E0 /* OnboardingSlide.swift */; };
+		0499588F2915CC0F006216E0 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0499588E2915CC0F006216E0 /* OnboardingViewController.swift */; };
+		049958932915CCB6006216E0 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049958922915CCB6006216E0 /* OnboardingCollectionViewCell.swift */; };
+		04995896291AF2D4006216E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04995895291AF2D4006216E0 /* ViewController.swift */; };
+		04995899291B161E006216E0 /* Styling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04995898291B161E006216E0 /* Styling.swift */; };
+		0499589B291B1649006216E0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0499589A291B1649006216E0 /* Constants.swift */; };
+		0499589D291B17FA006216E0 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0499589C291B17FA006216E0 /* SignUpViewController.swift */; };
+		0499589F291B182F006216E0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0499589E291B182E006216E0 /* LoginViewController.swift */; };
+		049958A2291D7E68006216E0 /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049958A1291D7E68006216E0 /* Reservation.swift */; };
+		049958A5291D7F10006216E0 /* ContainerTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049958A4291D7F10006216E0 /* ContainerTabBarController.swift */; };
+		049958A7291D7F4B006216E0 /* PaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049958A6291D7F4B006216E0 /* PaymentVC.swift */; };
+		049958A9291D8092006216E0 /* RidesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049958A8291D8092006216E0 /* RidesVC.swift */; };
+		049958AB291D80BB006216E0 /* QRScanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049958AA291D80BB006216E0 /* QRScanVC.swift */; };
+		049958AF291D80E9006216E0 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049958AE291D80E9006216E0 /* SettingsVC.swift */; };
+		049958B1291D8104006216E0 /* ParkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049958B0291D8104006216E0 /* ParkViewController.swift */; };
+		46FE9A549246FD917A878038 /* Pods_Epark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0884E8CCAEC35D1E1FF6041F /* Pods_Epark.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04781B702915846D00915658 /* Epark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Epark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04781B732915846D00915658 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04781B752915846E00915658 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04781B772915846E00915658 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04781B7A2915846E00915658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04781B7C2915847100915658 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04781B7F2915847100915658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04781B812915847100915658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049627C9293D410C00CE24EB /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
+		049958872915C21C006216E0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0499588A2915CB78006216E0 /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
+		0499588E2915CC0F006216E0 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		049958922915CCB6006216E0 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		04995895291AF2D4006216E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04995898291B161E006216E0 /* Styling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styling.swift; sourceTree = "<group>"; };
+		0499589A291B1649006216E0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0499589C291B17FA006216E0 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		0499589E291B182E006216E0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		049958A1291D7E68006216E0 /* Reservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
+		049958A4291D7F10006216E0 /* ContainerTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerTabBarController.swift; sourceTree = "<group>"; };
+		049958A6291D7F4B006216E0 /* PaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentVC.swift; sourceTree = "<group>"; };
+		049958A8291D8092006216E0 /* RidesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidesVC.swift; sourceTree = "<group>"; };
+		049958AA291D80BB006216E0 /* QRScanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanVC.swift; sourceTree = "<group>"; };
+		049958AE291D80E9006216E0 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		049958B0291D8104006216E0 /* ParkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkViewController.swift; sourceTree = "<group>"; };
+		049E289C293418290013284D /* Drone_shot.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Drone_shot.mp4; sourceTree = "<group>"; };
+		0884E8CCAEC35D1E1FF6041F /* Pods_Epark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Epark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A480DCB907BF9BB8FAA2CD7 /* Pods-Epark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Epark.release.xcconfig"; path = "Target Support Files/Pods-Epark/Pods-Epark.release.xcconfig"; sourceTree = "<group>"; };
+		2BF12ED53D984EC3BB47B503 /* Pods-Epark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Epark.debug.xcconfig"; path = "Target Support Files/Pods-Epark/Pods-Epark.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46FE9A549246FD917A878038 /* Pods_Epark.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +80,8 @@
 			children = (
 				04781B722915846D00915658 /* Epark */,
 				04781B712915846D00915658 /* Products */,
+				11FD684F9EDB5C1414DED43E /* Pods */,
+				6FC0912A655EFE863452815D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +96,114 @@
 		04781B722915846D00915658 /* Epark */ = {
 			isa = PBXGroup;
 			children = (
+				049958B2291D814F006216E0 /* Media */,
+				04995897291B15EF006216E0 /* Utilities */,
+				0499588C2915CB9C006216E0 /* Views */,
+				049958892915CB25006216E0 /* Models */,
 				04781B732915846D00915658 /* AppDelegate.swift */,
 				04781B752915846E00915658 /* SceneDelegate.swift */,
-				04781B772915846E00915658 /* ViewController.swift */,
 				04781B792915846E00915658 /* Main.storyboard */,
 				04781B7C2915847100915658 /* Assets.xcassets */,
 				04781B7E2915847100915658 /* LaunchScreen.storyboard */,
 				04781B812915847100915658 /* Info.plist */,
+				049958872915C21C006216E0 /* GoogleService-Info.plist */,
 			);
 			path = Epark;
+			sourceTree = "<group>";
+		};
+		049958892915CB25006216E0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0499588A2915CB78006216E0 /* OnboardingSlide.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0499588C2915CB9C006216E0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				049958A3291D7ECB006216E0 /* Parking */,
+				04995894291AF24C006216E0 /* SignIn */,
+				0499588D2915CBAF006216E0 /* Onboarding */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0499588D2915CBAF006216E0 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				0499588E2915CC0F006216E0 /* OnboardingViewController.swift */,
+				049958922915CCB6006216E0 /* OnboardingCollectionViewCell.swift */,
+			);
+			name = Onboarding;
+			path = "../New Group/Onboarding";
+			sourceTree = "<group>";
+		};
+		04995894291AF24C006216E0 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				04995895291AF2D4006216E0 /* ViewController.swift */,
+				0499589C291B17FA006216E0 /* SignUpViewController.swift */,
+				0499589E291B182E006216E0 /* LoginViewController.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		04995897291B15EF006216E0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				049958A0291D7E4B006216E0 /* DB */,
+				04995898291B161E006216E0 /* Styling.swift */,
+				0499589A291B1649006216E0 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		049958A0291D7E4B006216E0 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				049958A1291D7E68006216E0 /* Reservation.swift */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		049958A3291D7ECB006216E0 /* Parking */ = {
+			isa = PBXGroup;
+			children = (
+				049958A4291D7F10006216E0 /* ContainerTabBarController.swift */,
+				049958A6291D7F4B006216E0 /* PaymentVC.swift */,
+				049958A8291D8092006216E0 /* RidesVC.swift */,
+				049958AA291D80BB006216E0 /* QRScanVC.swift */,
+				049958AE291D80E9006216E0 /* SettingsVC.swift */,
+				049958B0291D8104006216E0 /* ParkViewController.swift */,
+				049627C9293D410C00CE24EB /* HistoryVC.swift */,
+			);
+			path = Parking;
+			sourceTree = "<group>";
+		};
+		049958B2291D814F006216E0 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				049E289C293418290013284D /* Drone_shot.mp4 */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		11FD684F9EDB5C1414DED43E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BF12ED53D984EC3BB47B503 /* Pods-Epark.debug.xcconfig */,
+				1A480DCB907BF9BB8FAA2CD7 /* Pods-Epark.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6FC0912A655EFE863452815D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0884E8CCAEC35D1E1FF6041F /* Pods_Epark.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04781B842915847100915658 /* Build configuration list for PBXNativeTarget "Epark" */;
 			buildPhases = (
+				C43C86BEDC17A0781440BF96 /* [CP] Check Pods Manifest.lock */,
 				04781B6C2915846D00915658 /* Sources */,
 				04781B6D2915846D00915658 /* Frameworks */,
 				04781B6E2915846D00915658 /* Resources */,
+				2C6482FC93907EEA456F3126 /* [CP] Embed Pods Frameworks */,
+				56F8C62326B410CA797FCDDF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -111,6 +253,9 @@
 				Base,
 			);
 			mainGroup = 04781B672915846D00915658;
+			packageReferences = (
+				04832B40293FA78700B61B33 /* XCRemoteSwiftPackageReference "braintree_ios" */,
+			);
 			productRefGroup = 04781B712915846D00915658 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04781B802915847100915658 /* LaunchScreen.storyboard in Resources */,
+				049958882915C21C006216E0 /* GoogleService-Info.plist in Resources */,
 				04781B7D2915847100915658 /* Assets.xcassets in Resources */,
 				04781B7B2915846E00915658 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +279,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C6482FC93907EEA456F3126 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Epark/Pods-Epark-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Epark/Pods-Epark-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Epark/Pods-Epark-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56F8C62326B410CA797FCDDF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Epark/Pods-Epark-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Epark/Pods-Epark-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Epark/Pods-Epark-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C43C86BEDC17A0781440BF96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Epark-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04781B6C2915846D00915658 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04781B782915846E00915658 /* ViewController.swift in Sources */,
+				049958B1291D8104006216E0 /* ParkViewController.swift in Sources */,
+				049958AF291D80E9006216E0 /* SettingsVC.swift in Sources */,
+				0499588B2915CB78006216E0 /* OnboardingSlide.swift in Sources */,
+				049958A5291D7F10006216E0 /* ContainerTabBarController.swift in Sources */,
+				0499588F2915CC0F006216E0 /* OnboardingViewController.swift in Sources */,
+				049958A7291D7F4B006216E0 /* PaymentVC.swift in Sources */,
+				04995899291B161E006216E0 /* Styling.swift in Sources */,
+				049627CA293D410C00CE24EB /* HistoryVC.swift in Sources */,
+				049958A2291D7E68006216E0 /* Reservation.swift in Sources */,
+				049958A9291D8092006216E0 /* RidesVC.swift in Sources */,
 				04781B742915846D00915658 /* AppDelegate.swift in Sources */,
+				04995896291AF2D4006216E0 /* ViewController.swift in Sources */,
 				04781B762915846E00915658 /* SceneDelegate.swift in Sources */,
+				0499589D291B17FA006216E0 /* SignUpViewController.swift in Sources */,
+				049958932915CCB6006216E0 /* OnboardingCollectionViewCell.swift in Sources */,
+				0499589F291B182F006216E0 /* LoginViewController.swift in Sources */,
+				0499589B291B1649006216E0 /* Constants.swift in Sources */,
+				049958AB291D80BB006216E0 /* QRScanVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +502,7 @@
 		};
 		04781B852915847100915658 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BF12ED53D984EC3BB47B503 /* Pods-Epark.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +511,8 @@
 				DEVELOPMENT_TEAM = 545DU58D33;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Epark/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "App requires background tracking";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -300,7 +523,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ihebMBARKI.Epark;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihebMBARKI.Epark;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -310,6 +533,7 @@
 		};
 		04781B862915847100915658 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A480DCB907BF9BB8FAA2CD7 /* Pods-Epark.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,6 +542,8 @@
 				DEVELOPMENT_TEAM = 545DU58D33;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Epark/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "App requires background tracking";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -328,7 +554,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ihebMBARKI.Epark;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihebMBARKI.Epark;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -358,6 +584,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		04832B40293FA78700B61B33 /* XCRemoteSwiftPackageReference "braintree_ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/braintree/braintree_ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 04781B682915846D00915658 /* Project object */;
 }
