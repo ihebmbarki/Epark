@@ -20,7 +20,7 @@ Developed an iOS mobile application (Epark) for efficient management of parking 
 
 ## Demo 📱
 
-[![Demo Video](https://drive.google.com/uc?export=view&id=12u2SIb3iFIoA2cW9j9w6rrahnYR_MZIU)](https://drive.google.com/uc?export=view&id=12u2SIb3iFIoA2cW9j9w6rrahnYR_MZIU)
+![Demo Video](https://raw.githubusercontent.com/ihebmbarki/Epark/master/Demo_Epark.gif)
 
 
 
